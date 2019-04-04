@@ -1,0 +1,62 @@
+# -*- mode: gitignore; -*-
+yarn.lock
+node_modules
+bower_components
+ansible/secret
+ansible/*.retry
+secret
+/.vagrant
+vagrant_ansible_inventory
+.DS_Store
+packer_cache
+builds
+output-virtualbox-iso
+*.log
+*.log.*
+naught.ipc
+git_stats
+www/dist/*
+*.orig
+.vscode/*
+
+### Docker ###
+docker-compose.override.yml
+
+### packer.io ###
+output-*
+
+### terraform.io ###
+*.tfplan
+
+### PHP storm ###
+.idea
+.idea/*
+.idea/workspace.xml
+atlassian-ide-plugin.xml
+.settings
+*.iml
+
+### vim ###
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
+
+### Emacs ###
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+### Terraform.io ###
+*.tfvars
+
+### misc ###
+*.box
+autoTestQueue.sql
+errorShots

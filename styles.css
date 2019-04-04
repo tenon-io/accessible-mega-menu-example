@@ -1,0 +1,100 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Avenir;
+}
+
+header {
+    line-height: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #2f2f2f;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    background-color: #2f2f2f;
+
+}
+
+nav li {
+    font-size: 1.2em;
+    line-height: 50px;
+    text-align: left;
+    background-color: #2f2f2f;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    border-bottom: 1px solid #888;
+    transition: .3s background-color;
+    background-color: #2f2f2f;
+
+}
+
+nav a:hover, nav a:focus {
+    outline: none;
+    border: 2px solid #ddd;
+    background-color: #eee;
+    color: #2f2f2f;
+}
+
+/* Sub Menus */
+nav li li {
+    font-size: .8em;
+    background-color: #2f2f2f;
+
+}
+
+nav li {
+    width: 160px;
+    border-bottom: none;
+    line-height: 50px;
+    font-size: 1.4em;
+    display: inline-block;
+    background-color: #2f2f2f;
+
+}
+
+nav a {
+    border: none;
+}
+
+nav > ul > li {
+    text-align: center;
+    padding: 0;
+}
+
+nav > ul > li > a {
+    padding-left: 0;
+}
+
+/* Sub Menus */
+nav li ul {
+    position: absolute;
+    display: none;
+    width: inherit;
+}
+
+nav li:hover ul, nav li:focus ul {
+    display: block;
+}
+
+nav li ul li a {
+    display: block;
+    padding: 10px;
+    width: 175px;
+    white-space: nowrap;
+    background-color: #2f2f2f;
+}
+
+main {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
