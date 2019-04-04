@@ -1,14 +1,11 @@
 $(document).ready(function () {
 
     let menuParents = $('nav ul li a');
-    let submenus = $('nav ul ul');
 
     /**
      * Handle the keyboard accessibility side of things
      */
     menuParents.focus(function () {
-
-        submenus.hide();
         let subMenu = $(this).next('ul');
 
         if (subMenu.length > 0) {
@@ -37,5 +34,6 @@ $(document).ready(function () {
 
         subMenu.hide();
     });
+
 
 });
