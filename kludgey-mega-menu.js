@@ -16,10 +16,7 @@ $(function() {
       let prevMenu = $(this)
         .closest('li')
         .prev('li');
-      let prevSubMenu = $(this)
-        .closest('li')
-        .prev('li')
-        .find('ul');
+      let prevSubMenu = prevMenu.find('ul');
 
       if (subMenu.length > 0) {
         subMenu.hide();
