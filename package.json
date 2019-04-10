@@ -1,0 +1,22 @@
+{
+  "name": "kludgey-mega-menu",
+  "version": "1.0.0",
+  "description": "Mega menu demonstration",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tenon-io/kludgey-mega-menu.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tenon-io/kludgey-mega-menu/issues"
+  },
+  "homepage": "https://github.com/tenon-io/kludgey-mega-menu#readme",
+  "dependencies": {
+    "prettier": "^1.16.4"
+  }
+}

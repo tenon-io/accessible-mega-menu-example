@@ -1,5 +1,4 @@
 # -*- mode: gitignore; -*-
-yarn.lock
 node_modules
 bower_components
 ansible/secret
