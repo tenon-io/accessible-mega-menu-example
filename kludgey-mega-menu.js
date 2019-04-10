@@ -12,24 +12,24 @@ $(function() {
     ) {
       e.preventDefault();
 
-      let subMenu = $(this).next('ul');
-      let prevMenu = $(this)
-        .closest('li')
-        .prev('li');
+      let self = $(this);
+
+      let subMenu = self.next('ul');
+      let prevMenu = self.closest('li').prev('li');
       let prevSubMenu = prevMenu.find('ul');
 
-      if (subMenu.length > 0) {
+      if (subMenu.length) {
         subMenu.hide();
       }
 
-      if (prevSubMenu.length > 0) {
+      if (prevSubMenu.length) {
         prevSubMenu.show();
         prevSubMenu
           .find('a[href]')
           .last()
           .trigger('focus');
       } else {
-        prevMenu.find('a').trigger('focus');
+        prevMenu.find('a[href]').trigger('focus');
       }
     }
   });
@@ -42,7 +42,7 @@ $(function() {
 
     let subMenu = $(this).next('ul');
 
-    if (subMenu.length > 0) {
+    if (subMenu.length) {
       subMenu.show();
 
       let subMenuLinks = subMenu.find('a[href]');
