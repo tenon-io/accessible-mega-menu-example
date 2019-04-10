@@ -16,7 +16,8 @@
     "url": "https://github.com/tenon-io/accessible-mega-menu/issues"
   },
   "homepage": "https://github.com/tenon-io/accessible-mega-menu#readme",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "prettier": "^1.16.4"
   }
 }
