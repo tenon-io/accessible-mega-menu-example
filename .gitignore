@@ -1,34 +1,8 @@
 # -*- mode: gitignore; -*-
-yarn.lock
-node_modules
-bower_components
-ansible/secret
-ansible/*.retry
-secret
-/.vagrant
-vagrant_ansible_inventory
 .DS_Store
-packer_cache
-builds
-output-virtualbox-iso
-*.log
-*.log.*
-naught.ipc
-git_stats
-www/dist/*
-*.orig
-.vscode/*
 
-### Docker ###
-docker-compose.override.yml
 
-### packer.io ###
-output-*
-
-### terraform.io ###
-*.tfplan
-
-### PHP storm ###
+### PHP storm/ IntelliJ, etc. ###
 .idea
 .idea/*
 .idea/workspace.xml
@@ -52,11 +26,3 @@ Session.vim
 auto-save-list
 tramp
 .\#*
-
-### Terraform.io ###
-*.tfvars
-
-### misc ###
-*.box
-autoTestQueue.sql
-errorShots
