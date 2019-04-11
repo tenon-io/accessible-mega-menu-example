@@ -1,5 +1,5 @@
 {
-  "name": "accessible-mega-menu",
+  "name": "accessible-mega-menu-example",
   "version": "1.0.0",
   "description": "Mega menu demonstration",
   "main": "index.html",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tenon-io/accessible-mega-menu.git"
+    "url": "git+https://github.com/tenon-io/accessible-mega-menu-example.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tenon-io/accessible-mega-menu/issues"
+    "url": "https://github.com/tenon-io/accessible-mega-menu-example/issues"
   },
-  "homepage": "https://github.com/tenon-io/accessible-mega-menu#readme",
+  "homepage": "https://github.com/tenon-io/accessible-mega-menu-example#readme",
   "dependencies": {},
   "devDependencies": {
     "prettier": "^1.16.4"

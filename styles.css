@@ -1,94 +1,95 @@
 html,
 body {
-  margin: 0;
-  padding: 0;
-  font-family: Avenir;
+    margin: 0;
+    padding: 0;
+    font-family: Avenir;
 }
 
 header {
-  line-height: 50px;
-  padding-left: 10%;
-  padding-right: 10%;
-  background-color: #2f2f2f;
+    line-height: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #2f2f2f;
 }
 
+main {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+/* Begin the actual menu stuff */
 nav ul {
-  list-style: none;
-  text-align: center;
-  padding: 0;
-  margin: 0;
-  background-color: #2f2f2f;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    background-color: #2f2f2f;
 }
 
 nav li {
-  font-size: 1.2em;
-  line-height: 50px;
-  text-align: left;
-  background-color: #2f2f2f;
+    font-size: 1.2em;
+    line-height: 50px;
+    text-align: left;
+    background-color: #2f2f2f;
 }
 
 nav a {
-  border: 2px solid #2f2f2f;
-  text-decoration: none;
-  color: #fff;
-  display: block;
-  transition: 0.3s background-color;
-  background-color: #2f2f2f;
+    border: 2px solid #2f2f2f;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    transition: 0.3s background-color;
+    background-color: #2f2f2f;
 }
 
 nav a:hover,
 nav a:focus {
-  outline: none;
-  border: 2px solid #ddd;
-  background-color: #eee;
-  color: #2f2f2f;
+    outline: none;
+    border: 2px solid #ddd;
+    background-color: #eee;
+    color: #2f2f2f;
 }
 
 /* Sub Menus */
 nav li li {
-  font-size: 0.8em;
-  background-color: #2f2f2f;
+    font-size: 0.8em;
+    background-color: #2f2f2f;
 }
 
 nav li {
-  width: 160px;
-  border-bottom: none;
-  line-height: 50px;
-  font-size: 1.4em;
-  display: inline-block;
-  background-color: #2f2f2f;
+    width: 160px;
+    border-bottom: none;
+    line-height: 50px;
+    font-size: 1.4em;
+    display: inline-block;
+    background-color: #2f2f2f;
 }
 
 nav > ul > li {
-  text-align: center;
-  padding: 0;
+    text-align: center;
+    padding: 0;
 }
 
 nav > ul > li > a {
-  padding-left: 0;
+    padding-left: 0;
 }
 
 /* Sub Menus */
 nav li ul {
-  position: absolute;
-  display: none;
-  width: inherit;
+    position: absolute;
+    display: none;
+    width: inherit;
 }
 
 nav li:hover ul,
 nav li:focus ul {
-  display: block;
+    display: block;
 }
 
 nav li ul li a {
-  display: block;
-  padding: 10px;
-  width: 175px;
-  white-space: nowrap;
-  background-color: #2f2f2f;
-}
-
-main {
-  padding-left: 5%;
-  padding-right: 5%;
+    display: block;
+    padding: 10px;
+    width: 175px;
+    white-space: nowrap;
+    background-color: #2f2f2f;
 }
