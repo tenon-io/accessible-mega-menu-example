@@ -1,6 +1,6 @@
 # -*- mode: gitignore; -*-
 .DS_Store
-node_modules
+
 
 ### PHP storm/ IntelliJ, etc. ###
 .idea
